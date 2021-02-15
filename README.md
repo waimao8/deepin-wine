@@ -68,11 +68,17 @@ sudo apt install -fy
 深度软件包下载地址 http://packages.deepin.com/deepin/pool/non-free/d/
 
 我只用了几个
+
 tim
+
 deepin.com.qq.office_2.0.0deepin4_i386.deb
+
 讯雷
+
 deepin.com.thunderspeed_7.10.35.366deepin18_i386.deb
+
  微信
+ 
  deepin.com.wechat_2.6.8.65deepin0_i386.deb
 
 
