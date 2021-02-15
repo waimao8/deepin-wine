@@ -83,8 +83,11 @@ deepin.com.thunderspeed_7.10.35.366deepin18_i386.deb
 
 
 下载好所需的deb软件终端打开软件的文件夹
+
 输入sudo dpkg -i *.deb
+
 自动安装依赖
+
 sudo apt install -fy
 
 
