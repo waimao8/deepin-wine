@@ -58,7 +58,7 @@ rm -vfr ./deepintemp
 
 如果出现 wget 失败，可以运行直接克隆我的上面12个deb文件
 
-git clonehttps://gitee.com/ch0769/deepin-wine.git
+git clone https://gitee.com/ch0769/deepin-wine.git
 
 下面一行一行输入命令就可以了
 
