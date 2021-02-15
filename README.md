@@ -4,11 +4,12 @@
 
 
 
-自己随便建立一个xxx.sh 复制下面的内容 给执行权限，运行就自动安装了。
+自己随便建立一个xxx.sh 复制下面的内容 给执行权限，运行就自动安装了，也可以直接下载我的install.sh给权限运行就可以了。
 
 #!/bin/bash
 mkdir ./deepintemp
 cd ./deepintemp
+
 wget http://packages.deepin.com/deepin/pool/non-free/d/deepin-wine/deepin-wine_2.18-22~rc0_all.deb
 
 wget http://packages.deepin.com/deepin/pool/non-free/d/deepin-wine/deepin-wine32_2.18-22~rc0_i386.deb
