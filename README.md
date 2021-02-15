@@ -36,12 +36,19 @@ wget https://packages.deepin.com/deepin/pool/main/libj/libjpeg-turbo/libjpeg62-t
 wget https://packages.deepin.com/deepin/pool/main/libj/libjpeg-turbo/libjpeg62-turbo_1.5.1-2_i386.deb --no-check-certificate
 
 echo '准备添加32位支持'
+
 sudo dpkg --add-architecture i386
+
 echo '添加成功，准备刷新apt缓存信息...'
+
 sudo apt update
+
 echo '即将开始安装...'
+
 sudo dpkg -i *.deb
+
 echo '安装完成，正在自动安装依赖...'
+
 sudo apt install -fy
 
 rm -vfr ./deepintemp
@@ -50,15 +57,25 @@ rm -vfr ./deepintemp
 以下不要复制
 
 如果出现 wget 失败，可以运行直接克隆我的上面12个deb文件
+
 git clonehttps://gitee.com/ch0769/deepin-wine.git
+
 下面一行一行输入命令就可以了
+
 echo '准备添加32位支持'
+
 sudo dpkg --add-architecture i386
+
 echo '添加成功，准备刷新apt缓存信息...'
+
 sudo apt update
+
 echo '即将开始安装...'
+
 sudo dpkg -i *.deb
+
 echo '安装完成，正在自动安装依赖...'
+
 sudo apt install -fy
 
 
